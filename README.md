@@ -48,8 +48,9 @@ Every customer gets a score for how likely they are to buy. The scores are check
 - Age and gender are used only to decide who to call, not what to charge.
 
 ## Explore it yourself
-The screenshots above come from an interactive Power BI dashboard. To try the profit and call-cost sliders yourself, download [Cross_selling_targeting.pbix](Cross_selling_targeting.pbix) and open it in Power BI Desktop (free).
+The screenshots above come from an interactive Power BI dashboard. To try the profit and call-cost sliders yourself, download [Cross selling targeting.pbix](Cross%20selling%20targeting.pbix) and open it in Power BI Desktop (free).
 
 The full Python analysis is in [cross_sell_targeting.ipynb](cross_sell_targeting.ipynb).
 
 *Data: Kaggle "Health Insurance Cross Sell Prediction". Built with Python and Power BI.*
+
