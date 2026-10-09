@@ -13,7 +13,7 @@ An insurer wants to sell vehicle insurance to its existing health-insurance cust
 - **Older vehicles buy more.** 29% of owners of vehicles over 2 years old buy, against 4% for vehicles under 1 year.
 - These two facts (existing cover, past damage) explain about three-quarters of how likely a customer is to buy.
 
- ![Buy rate by customer group](screenshots/who_buys.png)
+ ![Buy rate by customer group](who_buys.png)
 
 ## The solution
 Every customer gets a score for how likely they are to buy. The scores are checked against what really happened, so a 30% score means about 30 in 100 such customers buy. Customers are then ranked by expected profit: chance of buying x profit per sale - cost of the call. A customer is worth calling only when this is above zero, which at the assumptions below means a score above 5%.
