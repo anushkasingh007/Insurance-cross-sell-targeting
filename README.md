@@ -26,13 +26,13 @@ Every customer gets a score for how likely they are to buy. The scores are check
 | Buyers reached | 9,342 | 9,165 (98%) |
 | Campaign profit | Rs 1.11 crore | Rs 1.47 crore |
 
-![Who to call](screenshots/who_to_call.png)
+![Who to call](who_to_call.png)
 
 - **53% fewer calls, 98% of buyers still reached, 33% more profit.**
 - The model ranks a real buyer above a non-buyer 86% of the time (a coin flip would be 50%).
 - The top 30% of customers by score contain 79% of all buyers. The bottom half contains about 1%.
 
- ![Model quality](screenshots/model_quality.png)
+ ![Model quality](model_quality.png)
 
 ## Recommendations
 1. **Stop calling customers who already hold vehicle insurance.** It is nearly all wasted spend.
@@ -40,7 +40,7 @@ Every customer gets a score for how likely they are to buy. The scores are check
 3. **Prove it with a live test before rolling out.** About 3,000 customers per group would give an 81% chance of a clear result.
 4. **Replace the assumed profit and call cost with real figures.** The cutoff moves with them: if a call costs Rs 200 and a sale earns Rs 1,000, only 32% of customers are worth calling.
 
- ![A/B test sample size](screenshots/ab_test.png)
+ ![A/B test sample size](ab_test.png)
 
 ## Assumptions and limits
 - Profit per sale (Rs 2,000) and cost per call (Rs 100) are assumptions, not facts from the data.
